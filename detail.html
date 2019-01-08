@@ -1,0 +1,1236 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
+    <title>Pasi</title>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+	<header class="header-style header-style2 header-style5">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <a class="logo" href="index.html">
+						<h1 class="pasi">PaSi</h1>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-10">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="normal-s">
+                        <ul>
+                            <li class="dropdown-plus">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="detail.html">导航</a>
+                            </li>
+<!--                            <li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+                            <li>
+                                <a href="liuyan.html">留言</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </header>
+    <div class="header-style header-style2 header-style3 header-style4 active">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="category">
+                    <span class="small-1">导航</span>
+                    <ul>
+                        <a href="#shucai"><li>素材</li></a>
+                        <a href="#tupian"><li>图片</li></a>
+                        <a href="#peise"><li>配色</li></a>
+                        <a href="#gonju"><li>工具</li></a>
+                        <a href="#linggan"><li>灵感</li></a>
+						<a href="#jiaocheng"><li>教程</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </div>
+    <!-- HEADER -->
+    
+    <!-- OVERLAY-MENU -->
+    <div class="overlay-wrapper height-min menu">
+        <div class="overlay-animation"></div>
+        <div class="flex">
+            <div class="flex-in">
+                <div class="overlay-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="btn-close"><span></span><span></span></div>
+                            <div class="col-lg-2 col-lg-offset-5">
+                                <ul>
+                                    <li class="dropdown-plus">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="detail.html">导航</a>
+                            </li>
+
+                           <!-- <li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+							<li>
+                                <a href="liuyan.html">留言</a>
+                            </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end OVERLAY-MENU -->
+	
+    <!-- OVERLAY-VIDEO -->
+     <div class="overlay-wrapper height-min video">
+        <div class="overlay-animation"></div>
+        <div class="iframe-wrapper">
+            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
+        </div>
+        <div class="btn-close"><span></span><span></span></div>
+    </div>
+    <!-- end OVERLAY-VIDEO -->
+
+
+    <!-- content -->
+    <div id="content-wrapper">
+        
+        <div class="empty-space h45-xs h65-sm"></div>
+		<div class="container-fluid-style3">
+			<div id="shucai" class="wrap">
+			<h2>&ensp;素材</h2>
+			<div class="xian"></div>
+			<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com" title="PS饭团网" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PS饭团网 </a>
+				<p>
+					海量设计矢量素材，高清图片下载，…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.cgtextures.com/" title="CG Textures" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> CG Textures </a>
+				<p>
+					世界著名高清纹理图片下载站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.textureking.com/" title="Texture King" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Texture King </a>
+				<p>
+					免费texture纹理素材下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.brusheezy.com/" title="Brusheezy" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Brusheezy </a>
+				<p>
+					免费PS笔刷，填充，样式，动作等…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.plaintextures.com/" title="Plain Textures" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Plain Textur… </a>
+				<p>
+					PS笔刷与texture纹理分享…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://medialoot.com/" title="Media Loot" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Media Loot </a>
+				<p>
+					数以千计的字体,icon,模板等…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://creativemarket.com/" title="Creative Market" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Creative Mar… </a>
+				<p>
+					设计师原创的设计资源收费下载站,…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://graphicriver.net/" title="Graphic River" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Graphic Rive… </a>
+				<p>
+					PS设计,平面设计,ICON,P…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.freepik.com/" title="Freepik" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Freepik </a>
+				<p>
+					免费图片，矢量，PSD下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://wegraphics.net/" title="Wegraphics纹理" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Wegraphics纹理 </a>
+				<p>
+					矢量，纹理，PS笔刷等综合素材资…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.pixeden.com/" title="Pixeden" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pixeden </a>
+				<p>
+					免费的设计和网页资源下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.psdbox.com" title="PSD盒子" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSD盒子 </a>
+				<p>
+					分享PS教程和素材的综合网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://lostandtaken.com/" title="Lost and Taken" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Lost and Tak… </a>
+				<p>
+					免费的高清分辨率纹理素材下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://freebiesbooth.com/" title="Freebies Booth" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Freebies Boo… </a>
+				<p>
+					免费网页设计PSD，UI设计文件…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://fbrushes.com/" title="Fbrushes" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Fbrushes </a>
+				<p>
+					免费笔刷，填充，样式，纹理收录下…
+				</p>
+			</div>
+
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://cn.clipart.me/" title="Clipart" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Clipart </a>
+				<p>
+					免费矢量和PSD图片（部分收费）
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.vecteezy.com/" title="Vecteezy" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Vecteezy </a>
+				<p>
+					大量免费的矢量素材下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://freedesignfile.com/" title="Free designfile" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Free designf… </a>
+				<p>
+					设计相关素材资源免费下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.psd4free.com/" title="PSD 4 FREE" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSD 4 FREE </a>
+				<p>
+					网页设计,UI等……PSD免费下…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://thepatternlibrary.com/" title="Pattern Library" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pattern Libr… </a>
+				<p>
+					免费时尚纹理素材资源
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://subtlepatterns.com/" title="Subtle Patterns" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Subtle Patte… </a>
+				<p>
+					适用于网页设计的高端背景纹理下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.lovetextures.com/" title="Lovetextures" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Lovetextures </a>
+				<p>
+					免费高分辨率的纹理可用于商业用途
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.noisetexturegenerator.com/" title="Noise Texture Generator" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Noise Textur… </a>
+				<p>
+					在线纹理制作可调整不透明度和杂色…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://pattern8.com/" title="免费图案" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 免费图案 </a>
+				<p>
+					四方连续填充图案下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://fribbble.com/" title="Fribbble" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Fribbble </a>
+				<p>
+					免费PSD和其他资源的下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://pixelbuddha.net/" title="Pixel Buddha " class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pixel Buddha… </a>
+				<p>
+					优质资源的分享和创作
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.bluevertigo.com.ar/" title="Blueve Rtigo" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Blueve Rtigo </a>
+				<p>
+					网页设计素材类书签，上千站点收集
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://365webresources.com/" title="365web Resources" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 365web Resou… </a>
+				<p>
+					网页设计素材免费下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://designercandies.net/" title="Designer Candies" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Designer Can… </a>
+				<p>
+					精选优质设计类素材博客
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.imcreator.com/free" title="TM Free" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> TM Free </a>
+				<p>
+					免费设计资源，图片，icon
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://all-free-download.com/" title="All-free-download" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> All-free-dow… </a>
+				<p>
+					综合免费素材下载站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://vector.me/" title="vector.me" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> vector.me </a>
+				<p>
+					大量免费矢量素材搜索引擎
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.uivector.com/" title="UI Vector" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> UI Vector </a>
+				<p>
+					寻找与发现免费的精美矢量
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://downloadpsd.com/" title="Download PSD" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Download PSD </a>
+				<p>
+					PSD下载站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.psdtex.com/" title="PSD tex" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSD tex </a>
+				<p>
+					中韩PSD设计源文件下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.blazrobar.com/" title="Blazrobar" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Blazrobar </a>
+				<p>
+					网页设计PSD,UI套装PSD等…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://freepresets.com/" title="Lightroom预设" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Lightroom预设 </a>
+				<p>
+					国外免费Lightroom预设下…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.presetsheaven.com/category/presets/" title="Presets Heaven" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Presets Heav… </a>
+				<p>
+					一天一个好预设
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://inside-lightroom.com/" title="Inside Lightroom" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Inside Light… </a>
+				<p>
+					大量免费预设，有分类
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://presetpond.com/category/presets/lightroom/" title="Presetpond" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Presetpond </a>
+				<p>
+					大量胶片效果预设。也有PS的动作…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.peecheey.com/" title="Peecheey" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Peecheey </a>
+				<p>
+					免费矢量资源素材
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+		</div>
+			<div id="tupian" class="wrap">
+			<h2>&ensp;图片</h2>
+			<div class="xian"></div>
+	<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://pixabay.com/" title="Pixbay高清图库" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pixbay高清图库 </a>
+				<p>
+					可以在任何地方使用的高清免费图片
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://500px.com/" title="500PX" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 500PX </a>
+				<p>
+					获取灵感 发现精彩，最出色的摄影…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.stockvault.net/" title="Stockvault" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Stockvault </a>
+				<p>
+					免费高清图库
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.twitrcovers.com/" title="微博封面图库" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 微博封面图库 </a>
+				<p>
+					Twitrcovers，丰富的封…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://alpha.wallhaven.cc/" title="Wallhaven" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Wallhaven </a>
+				<p>
+					优质壁纸站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.pixiv.net/" title="Pixiv" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pixiv </a>
+				<p>
+					霓虹国度最为知名的插画交流社区，…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://topit.me/" title="优美图片" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 优美图片 </a>
+				<p>
+					国内知名唯美图片站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://unsplash.com/" title="Unsplash" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Unsplash </a>
+				<p>
+					高清大图壁纸
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.wallcoo.com" title="猫猫壁纸酷" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 猫猫壁纸酷 </a>
+				<p>
+					图片数量多质量好的壁纸站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://1x.com/" title="1X" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 1X </a>
+				<p>
+					和500px差不多高端摄影站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://photo.naver.com/" title="Photo Naver" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Photo Naver </a>
+				<p>
+					韩国门户Naver自成一派的摄影…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://sc.68design.net/tk" title="68design图库" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 68design图库 </a>
+				<p>
+					设计师联盟旗下大图素材
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://ukiyo-e.org/" title="Ukiyo-e" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Ukiyo-e </a>
+				<p>
+					日本传统画作品收集
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.poco.cn/" title="Poco" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Poco </a>
+				<p>
+					知名摄影社交网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.gratisography.com/" title="Gratisography" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Gratisograph… </a>
+				<p>
+					免费时尚高清大图
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://poolga.com/" title="Poolga" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Poolga </a>
+				<p>
+					充满创意的手机壁纸分享网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.nastol.com.ua/" title="Nastol" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Nastol </a>
+				<p>
+					来自俄罗斯的桌面壁纸网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://ffffound.com/" title="ffffound" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> ffffound </a>
+				<p>
+					设计达人们的图片书签
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.flickr.com" title="Flickr" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Flickr </a>
+				<p>
+					雅虎旗下的摄影社交站，提供1T储…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.sxc.hu" title="Sxc.hu" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Sxc.hu </a>
+				<p>
+					国外知名免费大图网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://cn.depositphotos.com/" title="Depositphotos" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Depositphoto… </a>
+				<p>
+					免版税图库
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://thestocks.im/" title="TheStocks.im" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> TheStocks.im </a>
+				<p>
+					将数十个免费图片分享的网站整合在…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.cinemasquid.com/" title="Cinema Squid Movie &amp; TV Screenshots" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Cinema Squid… </a>
+				<p>
+					国外海量电影高清截图网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://www.flickr.com/photos/biodivlibrary/sets" title="Biodiversity Heritage Library" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Biodiversity… </a>
+				<p>
+					生物多样性文献图书馆-自古老文献…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://stokpic.com/" title="stokpic" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> stokpic </a>
+				<p>
+					小清新风格国外免费图片站点
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.imcreator.com/free/" title="imcreator" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> imcreator </a>
+				<p>
+					imcreator免费图库，分类…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://jaymantri.com/" title="jaymantri" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> jaymantri </a>
+				<p>
+					小众高清大图站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://snapwiresnaps.tumblr.com/" title="snapwiresnaps" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> snapwiresnap… </a>
+				<p>
+					风景大图
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://images.superfamous.com/" title="superfamous" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> superfamous </a>
+				<p>
+					非常炫酷的图库
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://littlevisuals.co/" title="littlevisuals" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> littlevisual… </a>
+				<p>
+					小小视觉志
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.splitshire.com/" title="splitshire" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> splitshire </a>
+				<p>
+					来自网友们的精挑细选
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://nos.twnsnd.co/" title="nos.twnsnd.co" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> nos.twnsnd.c… </a>
+				<p>
+					以复古的图片为主的大图分享
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://getrefe.tumblr.com/" title="getrefe" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> getrefe </a>
+				<p>
+					生活信息类别的大图素材
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://lockandstockphotos.com/" title="lockandstockphotos" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> lockandstock… </a>
+				<p>
+					清晰的摄影作品分享
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+			<div id="peise" class="wrap">
+		<h2>&ensp;配色</h2>
+		<div class="xian"></div>
+	<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.design-seeds.com" title="Design Seeds" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Design Seeds </a>
+				<p>
+					由设计师Jessica Cola…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://color.adobe.com/zh/create/color-wheel/" title="Adobe 色彩配置" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Adobe 色彩配置 </a>
+				<p>
+					Adobe官方在线配色色轮
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.birthdaycolors.jp/" title="日本色彩词典" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 日本色彩词典 </a>
+				<p>
+					和式风格诞生日色彩词典
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.colourlovers.com/" title="Color Trends" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Color Trends </a>
+				<p>
+					分享配色方案以及填充图案
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.colorhunter.com/" title="色彩捕猎者" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 色彩捕猎者 </a>
+				<p>
+					colorhunter，上传图片…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://nipponcolors.com/" title="NIPPON COLORS" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> NIPPON COLOR… </a>
+				<p>
+					日本传统颜色取色网站，美丽的色彩…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/109392.html" title="Coolorus" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Coolorus </a>
+				<p>
+					Photoshop配色神器
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/04181.html" title="COLOR CUBE" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> COLOR CUBE </a>
+				<p>
+					这配色根本停不下来~
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.peise.net/" title="配色网" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 配色网 </a>
+				<p>
+					致力于色彩搭配方案的交流与学习
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.materialpalette.com/brown/deep-orange" title="Materialpalette" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Materialpale… </a>
+				<p>
+					任取2个颜色生成在线配色方案
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.colorlovers.com/" title="Colorlovers" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Colorlovers </a>
+				<p>
+					直译过来应该是颜色情侣？有很多配…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.colorhunter.com/" title="Colorhunter" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Colorhunter </a>
+				<p>
+					色彩猎人，页面简单明了
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.designskilz.com/colors/" title="Material Design Colors" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Material Des… </a>
+				<p>
+					只需点击一个颜色就能查看更多的色…
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+			<div id="gonju" class="wrap">
+			<h2>&ensp;工具</h2>
+				<div class="xian"></div>
+	<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.001daima.com/" title="码工助手" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 码工助手 </a>
+				<p>
+					免费淘宝代码在线生成网
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.ecafe8.com/2013/?p=tools" title="在线布局工具" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 在线布局工具 </a>
+				<p>
+					可进行在线编辑热点,图片定位,倒…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://smallpdf.com/cn" title="Small PDF" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Small PDF </a>
+				<p>
+					合并，分割，压缩，将JPG和wo…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://matthew.wagerfield.com/flat-surface-shader/" title="Low Poly多边形制作" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Low Poly多边形制… </a>
+				<p>
+					在线自定义制作生成Low Pol…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.epinv.com/online/" title="书法字体" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 书法字体 </a>
+				<p>
+					在线生成书法字体转存为图片
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://weavesilk.com/" title="Silk" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Silk </a>
+				<p>
+					手绘超炫科技光线背景纹理
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.ps.net.cn/" title="PS在线" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PS在线 </a>
+				<p>
+					简易在线版PHOTOSHOP
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://vdisk.weibo.com/s/KvWph" title="字体管理器" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 字体管理器 </a>
+				<p>
+					Nexusfont，可让您预览和…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://weibo.com/1896736782/BC8fcbn7A?from=page_1006061896736782_profile&amp;wvr=6&amp;mod=weibotime" title="Instant photo sketch" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Instant phot… </a>
+				<p>
+					彩色图片转线稿图利器！
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/1116286.html" title="PS调色滤镜" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PS调色滤镜 </a>
+				<p>
+					Nik Software Col…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/1115853.html" title="Knock Out" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Knock Out </a>
+				<p>
+					Photoshop超强抠图大师
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/1115843.html" title="Portrait Professional" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Portrait Pro… </a>
+				<p>
+					Photoshop顶级磨皮软件
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/109392.html" title="Coolorus" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Coolorus </a>
+				<p>
+					Photoshop配色神器
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/084439.html" title="Divine Proportions" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Divine Propo… </a>
+				<p>
+					PS插件 黄金分割线制作
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/04181.html" title="COLOR CUBE" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> COLOR CUBE </a>
+				<p>
+					这配色根本停不下来~
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/04180.html" title="Realgrain" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Realgrain </a>
+				<p>
+					Photoshop胶片效果滤镜
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/04377.html" title="FotoSketcher" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> FotoSketcher </a>
+				<p>
+					超强大图片转绘画软件
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psefan.com/072619.html" title="磨皮滤镜" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 磨皮滤镜 </a>
+				<p>
+					六种PS常用磨皮滤镜分析与下载
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.smushit.com/ysmush.it/" title="Smush.it" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Smush.it </a>
+				<p>
+					从图片中消除不必要的字节来减小图…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://tinypng.org/ " title="TinyPNG" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> TinyPNG </a>
+				<p>
+					使用智能有损压缩技术，来减小pn…
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+			<div id="linggan" class="wrap">
+			<h2>&ensp;灵感</h2>
+				<div class="xian"></div>
+	<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://dribbble.com/" title="Dribbble" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Dribbble </a>
+				<p>
+					设计师必备，提供灵感的源泉
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://huaban.com/qzonemini/" title="花瓣" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 花瓣 </a>
+				<p>
+					国内著名设计灵感采集网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://www.behance.net/" title="Behance" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Behance </a>
+				<p>
+					全世界领先的创意设计聚合平台
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?https://www.pinterest.com" title="Pinterest" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Pinterest </a>
+				<p>
+					全球创意灵感分享图片采集站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://50watts.com/" title="50 Watts" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 50 Watts </a>
+				<p>
+					书籍封面设计插画资源分享网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://adsoftheworld.com/" title="Ads of the World" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Ads of the W… </a>
+				<p>
+					世界优秀广告视频等
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.informationisbeautiful.net/" title="美丽信息图" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 美丽信息图 </a>
+				<p>
+					信息图制作的创意，灵感与记录
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.baubauhaus.com/" title="Baubauhaus" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Baubauhaus </a>
+				<p>
+					提供设计灵感、插画摄影、时尚以及…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://grainedit.com/" title="Grain Edit" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Grain Edit </a>
+				<p>
+					50年代到70年代的复古设计
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://gdweb.co.kr/" title="GDWEB" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> GDWEB </a>
+				<p>
+					韩国网页设计页面截图收集
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://uehtml.com" title="UEhtml" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> UEhtml </a>
+				<p>
+					设计师网页灵感库
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://365awesomedesigners.com/" title="365awesomedesigners" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 365awesomede… </a>
+				<p>
+					设计师之家，优秀设计师的作品欣赏…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psd-box.deviantart.com/" title="Psdbox的DA小组" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Psdbox的DA小组 </a>
+				<p>
+					大量优质合成美图作品与素材,DA…
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+			<div id="jiaocheng" class="wrap">
+			<h2>&ensp;教程</h2>
+				<div class="xian"></div>
+	<div class="loop card">
+		<dl class="fix">
+			<dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://textuts.com/" title="Textuts" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Textuts </a>
+				<p>
+					PS字体设计教程网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.photoshoplayer.com/" title="Photoshop Layer" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Photoshop La… </a>
+				<p>
+					Photoshop教程收集
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.photoshoplady.com/" title="Photoshop Lady" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Photoshop La… </a>
+				<p>
+					上千经典PS教程收录
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://tutsplus.com/" title="Tuts+" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Tuts+ </a>
+				<p>
+					国外经典设计类教程站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://alfoart.com/index.html" title="Alfoart" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Alfoart </a>
+				<p>
+					高级创意合成类设计教程
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://designrfix.com/" title="Designrfix" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Designrfix </a>
+				<p>
+					设计综合-教程和网页设计资源
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://abduzeedo.com/" title="Abduzeedo" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Abduzeedo </a>
+				<p>
+					设计咨询灵感网站，也有教程分享
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.psdbox.com" title="PSD盒子" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSD盒子 </a>
+				<p>
+					分享PS教程和素材的综合网站
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://blog.spoongraphics.co.uk/" title="SpoonGraphics" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> SpoonGraphic… </a>
+				<p>
+					优质的PS和AI教程博客
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://psd.fanextra.com/" title="PSD爱好者" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSD爱好者 </a>
+				<p>
+					提供Photoshop教程、设计…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://www.psdvault.com/" title="PSDVault" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> PSDVault </a>
+				<p>
+					PSD宝库，提供了顶尖大师们的P…
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://photoshopcafe.com/" title="Photoshop cafe" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> Photoshop ca… </a>
+				<p>
+					PS制图学习
+				</p>
+			</div>
+			</dd><dd>
+			<div class="con">
+				<a href="http://hao.psefan.com/goto?http://bj.house.sina.com.cn/2010-05-06/36/7915.html" title="新浪乐居美编团队" class="sub" target="_blank"><i class="layui-icon layui-icon-link"></i> 新浪乐居美编团队 </a>
+				<p>
+					满满干货，乐居团队带来的设计教程…
+				</p>
+			</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+		</div>
+        <div class="empty-space h20-xs h40-md fl"></div>
+        <!-- footer -->
+		<footer class="footer-style footer-style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-left">
+                        <a class="logo">
+                            <!--<img src="img/logo.png" alt="#" />-->
+							<h1 class="pasi">PaSi</h1>
+                        </a>
+                        <div class="empty-space h15-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-5 col-sm-8 col-xs-12">
+                        <nav class="small-2">
+                            <ul>
+                                <li class="footer-nav">
+                                    <a href="index.html">主页</a>
+                                </li>
+                                <li class="footer-nav active">
+                                    <a href="detail.html">导航</a>
+                                </li>
+                                <!--<li class="footer-nav">
+                                    <a href="detail.html">PORTFOLIO</a>
+                                </li>-->
+                                <!--<li class="footer-nav">
+                                    <a href="blog.html">资源</a>
+                                </li>-->
+                                <li class="footer-nav">
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                            </ul>
+                        </nav>
+                        <div class="empty-space h20-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <form class="subscribe-form">
+                            <div class="input-wrapper">
+                                <div class="input-style">
+                                    <input id="input" name="value" type="text">
+                                    <label for="input">百度...</label>
+                                </div>
+                                <button class="btn-style1" type="button"><span>搜索</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-space h20-md fl"></div>
+						<div class="col-md-9">
+                        <div class="copyright normal-s">
+							<div class="col-md-2"><p class="hei">班别</p><p>2017级软件C班</p></div><div class="col-md-2"><p class="hei">学号</p><p>1706200336</p></div><div class="col-md-2"><p class="hei">制作人</p><p>林满鑫</p></div>
+							<div class="col-md-3"><p class="hei">邮箱</p><p>1361571410@qq.com</p></div><div class="col-md-2"><p class="hei">制作时间</p><p>2019年1月7日</p></div>
+                        </div>
+                    </div>
+				<div class="col-md-3">
+					<div class="wo">
+					  <a class="button" href="#popup">Business Card</a>
+					  <div class="popup" id="popup">
+						<div class="popup-inner">
+						  <div class="popup__photo">
+							<img src="img/wo.jpg" alt="">
+						  </div>
+						  <div class="popup__text">
+							<h1> Man Xin Lin </h1>
+							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
+							  </div>
+							  <a class="popup__close" href="#footer">X</a>
+							</div>
+						  </div>
+						</div>
+                    </div>
+            </div>
+			<div class="bottom"><p>Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</p></div>
+        </footer>
+        <!-- footer -->
+        <ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
+    </div>
+    <!-- content -->
+</body>
+</html>

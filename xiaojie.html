@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
+    <title>Pasi</title>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+	<header class="header-style header-style2 header-style5">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <a class="logo" href="index.html">
+						<h1 class="pasi">PaSi</h1>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-10">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="normal-s">
+                        <ul>
+                            <li class="dropdown-plus active">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+                            <!--<li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+                            <li>
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </header>
+    <div class="header-style header-style2 header-style3 header-style4 active">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="category">
+                    <span class="small-1">设计小结</span>
+                    <ul>
+						<a href="#daohan"><li>input特效</li></a>
+                        <a href="#dingwei"><li>悬浮UI</li></a>
+                        <a href="#tishi"><li>关闭UI</li></a>
+                        <a href="#zhiding"><li>菜单下拉</li></a>
+						<a href="#wendang"><li>鸣谢</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </div>
+    <!-- HEADER -->
+    
+    <!-- OVERLAY-MENU -->
+    <div class="overlay-wrapper height-min menu">
+        <div class="overlay-animation"></div>
+        <div class="flex">
+            <div class="flex-in">
+                <div class="overlay-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="btn-close"><span></span><span></span></div>
+                            <div class="col-lg-2 col-lg-offset-5">
+                                <ul>
+                                    <li class="dropdown-plus active">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+
+                            <!--<li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+							<li>
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end OVERLAY-MENU -->
+	
+    <!-- OVERLAY-VIDEO -->
+     <div class="overlay-wrapper height-min video">
+        <div class="overlay-animation"></div>
+        <div class="iframe-wrapper">
+            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
+        </div>
+        <div class="btn-close"><span></span><span></span></div>
+    </div>
+    <!-- end OVERLAY-VIDEO -->
+
+
+    <!-- content -->
+    <div id="content-wrapper">
+        
+        <div class="empty-space h45-xs h65-sm"></div>
+        <div class="container-fluid-style3">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <article>
+                        <h1 class="h1">设计小结</h1>
+                        <div class="empty-space h15-xs"></div>
+                        <p class="normal-l dark-grey">开发者对此次进行了多方面的总结（主要对于Javascript效果）</p>
+						 <p class="normal-l dark-grey">技术文档处已有4处Javascript效果,下面重点展示其余效果</p>
+                    </article>
+                </div>
+            </div>
+            <div class="empty-space h15-xs h45-sm"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content-menu">
+                        <div class="button-drop">
+                           <a>
+                            <span>ALL</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </a> 
+                        </div>
+                        <ul>
+							<li><a class="active" href="#"><span>ALL</span></a></li>
+                            <li><a data-name="DESIGN" href="#daohan"><span>input特效</span></a></li>
+                            <li><a data-name="BRANDING" href="#dingwei"><span>悬浮UI</span></a></li>
+                            <li><a data-name="ADVERTISING" href="#tishi"><span>关闭UI</span></a></li>
+                            <li><a data-name="LOGO" href="#zhiding"><span>菜单下拉</span></a></li>
+                            <li><a data-name="DEVELOPMENT" href="#wendang"><span>鸣谢</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empty-space h40-xs h60-md"></div>
+
+            <!--left-right -->
+            <div class="left-right">
+                <div id="daohan" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/inputx.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">input特效</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>3日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>input特效</a>
+                                        </span>
+                                    </div>
+									<p>文本框，按钮均有.focus特效</p>
+									<div class="empty-space h20-md fl"></div>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="dingwei" class="row">
+                    <div class="col-md-6 pull-right"></div>
+                    <div class="col-md-6">
+                        <div class="clip right-side">
+                            <a class="bg" style="background-image:url(img/icon3.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">手机端侧边栏悬浮UI</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>4日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>便于在手机端方便的使用侧边栏</a>
+                                        </span>
+                                    </div>
+                                    <p>善于运用它，您可以大大提高效率</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+							<div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="tishi" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/icon2.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">导航栏关闭UI</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>5日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>电脑端，手机端导航栏关闭UI</a>
+                                        </span>
+                                    </div>
+                                    <p>简洁您的页面，但它可能只得到某些人的喜欢</p><div class="empty-space h20-md fl"></div>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="zhiding" class="row">
+                    <div class="col-md-6 pull-right"></div>
+                    <div class="col-md-6">
+                        <div class="clip right-side">
+                            <a class="bg" style="background-image:url(img/daoh+.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">手机端菜单下拉</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>6日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>您在手机端也可菜单下拉</a>
+                                        </span>
+                                    </div>
+                                    <p>在您使用手机端浏览网站时方可感受到</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+							<div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="wendang" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/blog-img-5.PNG);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">gif录制</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                   <span>开发时间</span>
+                                    <span>8日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>本次使用的gif录制工具</a>
+                                        </span>
+                                    </div>
+                                    <p>感谢ScreenToGif</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h30-xs h60-sm fl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end left-right -->
+            <div class="empty-space h15-xs h15-sm h90-md"></div>
+            <!--<div class="page-pagination">
+                <ul>
+                    <li><a>PREVIOUS</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>4</a></li>
+                    <li><a>5</a></li>
+                    <li><a>...</a></li>
+                    <li><a>NEXT</a></li>
+                </ul>
+            </div>-->
+        </div>
+        <!-- end container-fluid-style2 -->
+        <div class="empty-space h0-xs h30-sm fl"></div>
+        <!-- footer -->
+		<footer class="footer-style footer-style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-left">
+                        <a class="logo">
+                            <!--<img src="img/logo.png" alt="#" />-->
+							<h1 class="pasi">PaSi</h1>
+                        </a>
+                        <div class="empty-space h15-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-5 col-sm-8 col-xs-12">
+                        <nav class="small-2">
+                            <ul>
+                                <li class="footer-nav active">
+                                    <a href="index.html">主页</a>
+                                </li>
+                                <li class="footer-nav">
+                                    <a href="detail.html">导航</a>
+                                </li>
+                                <!--<li class="footer-nav">
+                                    <a href="detail.html">PORTFOLIO</a>
+                                </li>-->
+                                <!--<li class="footer-nav">
+                                    <a href="blog.html">资源</a>
+                                </li>-->
+                                <li class="footer-nav">
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                            </ul>
+                        </nav>
+                        <div class="empty-space h20-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <form class="subscribe-form">
+                            <div class="input-wrapper">
+                                <div class="input-style">
+                                    <input id="input" name="value" type="text">
+                                    <label for="input">百度...</label>
+                                </div>
+                                <button class="btn-style1" type="button"><span>搜索</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-space h20-md fl"></div>
+						<div class="col-md-9">
+                        <div class="copyright normal-s">
+							<div class="col-md-2"><p class="hei">班别</p><p>2017级软件C班</p></div><div class="col-md-2"><p class="hei">学号</p><p>1706200336</p></div><div class="col-md-2"><p class="hei">制作人</p><p>林满鑫</p></div>
+							<div class="col-md-3"><p class="hei">邮箱</p><p>1361571410@qq.com</p></div><div class="col-md-2"><p class="hei">制作时间</p><p>2019年1月7日</p></div>
+                        </div>
+                    </div>
+				<div class="col-md-3">
+					<div class="wo">
+					  <a class="button" href="#popup">Business Card</a>
+					  <div class="popup" id="popup">
+						<div class="popup-inner">
+						  <div class="popup__photo">
+							<img src="img/wo.jpg" alt="">
+						  </div>
+						  <div class="popup__text">
+							<h1> Man Xin Lin </h1>
+							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
+							  </div>
+							  <a class="popup__close" href="#footer">X</a>
+							</div>
+						  </div>
+						</div>
+                    </div>
+            </div>
+			<div class="bottom"><p>Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</p></div>
+        </footer>
+        <!-- footer -->
+        <ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
+    </div>
+    <!-- content -->
+</body>
+</html>

@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
+    <title>Pasi</title>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+	<header class="header-style header-style2 header-style5">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <a class="logo">
+						<h1 class="pasi">PaSi</h1>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-10">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="normal-s">
+                        <ul>
+                            <li class="dropdown-plus">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+                           <!-- <li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+                            <li class="active">
+                                <a href="liuyan.html">留言</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </header>
+    <!--<div class="header-style header-style2 header-style3 header-style4 active">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+				<div class="col-xs-6 col-sm-10">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="normal-s">
+                        <ul>
+                            <li class="dropdown-plus">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+                                </ul>
+                            </li>
+                            <li>
+								<a href="detail.html">导航</a>
+                            </li>
+                            <li>
+                                <a href="liuyan.html">留言</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="section">
+                    <p>欢迎您留言</p>
+                </div>
+                <div class="category">
+                    <span class="small-1">留言</span>
+                    <ul>
+						<a href="#"><li>留言</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </div>-->
+    <!-- HEADER -->
+    
+    <!-- OVERLAY-MENU -->
+    <div class="overlay-wrapper height-min menu">
+        <div class="overlay-animation"></div>
+        <div class="flex">
+            <div class="flex-in">
+                <div class="overlay-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="btn-close"><span></span><span></span></div>
+                            <div class="col-lg-2 col-lg-offset-5">
+                                <ul>
+                                    <li class="dropdown-plus">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+
+                            <!--<li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+								<li class="active">
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end OVERLAY-MENU -->
+	
+    <!-- OVERLAY-VIDEO -->
+     <div class="overlay-wrapper height-min video">
+        <div class="overlay-animation"></div>
+        <div class="iframe-wrapper">
+            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
+        </div>
+        <div class="btn-close"><span></span><span></span></div>
+    </div>
+    <!-- end OVERLAY-VIDEO -->
+
+
+    <!-- content -->
+    <div id="content-wrapper">
+        
+        <div class="empty-space h45-xs h65-sm"></div>
+        <div class="container-fluid-style5">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                    <article>
+                        <h1 class="h1">留言</h1>
+                        <div class="empty-space h25-xs"></div>
+                        <p class="normal-l grey-dark">欢迎告知我们您的建议</p>
+                    </article>
+                </div>
+            </div>
+            <div class="empty-space h155-md h60-xs"></div>
+            <div class="contacts">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="empty-space h0-sm h40-md fl"></div>
+                        <div class="section">
+                            <p class="biggest">地址</p>
+                            <div class="empty-space h10-xs"></div>
+                            <ul class="normal">
+                                <li>
+                                    <a href="http://www.gpc.net.cn/">广东工程职业技术学院</a>
+                                </li>
+                            </ul>
+                            <div class="empty-space h35-xs"></div>
+                            <p class="biggest">联系时间</p>
+                            <div class="empty-space h10-xs"></div>
+                            <ul class="normal">
+                                <li>Mn. - Fr.: from 9-00 till 18-00</li>
+                            </ul>
+                        </div>
+                        <div class="empty-space h35-xs h40-md fl"></div>
+                    </div>
+                    <div class="col-md-3 pull-right">
+                        <div class="empty-space h0-xs h40-md fl"></div>
+                        <div class="section">
+                            <p class="biggest">微博</p>
+                            <div class="empty-space h10-xs"></div>
+                            <ul class="normal">
+                                <li><a href="https://weibo.com/92duoduo#_loginLayer_1546874565271" target="_blank">尽情欢乐过</a></li>
+                            </ul>
+                            <div class="empty-space h35-xs"></div>
+                            <p class="biggest">E-mail</p>
+                            <div class="empty-space h10-xs"></div>
+                            <ul class="normal">
+                                <li><a href="mailto:1361571410@qq.com">1361571410@qq.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="empty-space h0-xs h40-md fl"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-wrapper text-center">
+                            <div class="empty-space h50-xs h40-md"></div>
+                            <h6 class="h7">留下一句话</h6>
+                            <div class="empty-space h30-xs"></div>
+                            <form class="contact-form">
+                                <div class="input-wrapper">
+                                    <div class="input-style">
+                                        <input id="inputName" name="name" type="text" class="input" required>
+                                        <label for="inputName">Name...</label>
+                                    </div>
+                                    <div class="input-style">
+                                        <input id="inputEmail" name="email" type="text" class="input" required>
+                                        <label for="inputEmail">E-mail...</label>
+                                    </div>
+                                    <div class="input-style textarea">
+                                        <textarea id="inputMessage" name="message" class="input" required></textarea>
+                                        <label for="inputMessage">Your message...</label>
+                                    </div>
+                                </div>
+                                <div class="empty-space h20-xs fl"></div>
+                                <button class="btn-style1 style2 center-block" type="submit"><span>SUBMIT</span></button>
+                            </form>
+                            <div class="empty-space h50-xs"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container-fluid-style3 -->
+		<div class="empty-space h155-md h60-xs"></div>
+        <div class="empty-space h0-xs h30-sm fl"></div>
+        <!-- footer -->
+		<footer class="footer-style footer-style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-left">
+                        <a class="logo">
+                            <!--<img src="img/logo.png" alt="#" />-->
+							<h1 class="pasi">PaSi</h1>
+                        </a>
+                        <div class="empty-space h15-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-5 col-sm-8 col-xs-12">
+                        <nav class="small-2">
+                            <ul>
+                                <li class="footer-nav">
+                                    <a href="index.html">主页</a>
+                                </li>
+                                <li class="footer-nav">
+                                    <a href="detail.html">导航</a>
+                                </li>
+                                <!--<li class="footer-nav">
+                                    <a href="detail.html">PORTFOLIO</a>
+                                </li>-->
+                                <!--<li class="footer-nav">
+                                    <a href="blog.html">资源</a>
+                                </li>-->
+                                <li class="footer-nav active">
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                            </ul>
+                        </nav>
+                        <div class="empty-space h20-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <form class="subscribe-form">
+                            <div class="input-wrapper">
+                                <div class="input-style">
+                                    <input id="input" name="value" type="text">
+                                    <label for="input">百度...</label>
+                                </div>
+                                <button class="btn-style1" type="button"><span>搜索</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-space h20-md fl"></div>
+						<div class="col-md-9">
+                        <div class="copyright normal-s">
+							<div class="col-md-2"><p class="hei">班别</p><p>2017级软件C班</p></div><div class="col-md-2"><p class="hei">学号</p><p>1706200336</p></div><div class="col-md-2"><p class="hei">制作人</p><p>林满鑫</p></div>
+							<div class="col-md-3"><p class="hei">邮箱</p><p>1361571410@qq.com</p></div><div class="col-md-2"><p class="hei">制作时间</p><p>2019年1月7日</p></div>
+                        </div>
+                    </div>
+				<div class="col-md-3">
+					<div class="wo">
+					  <a class="button" href="#popup">Business Card</a>
+					  <div class="popup" id="popup">
+						<div class="popup-inner">
+						  <div class="popup__photo">
+							<img src="img/wo.jpg" alt="">
+						  </div>
+						  <div class="popup__text">
+							<h1> Man Xin Lin </h1>
+							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
+							  </div>
+							  <a class="popup__close" href="#footer">X</a>
+							</div>
+						  </div>
+						</div>
+                    </div>
+            </div>
+			<div class="bottom"><p>Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</p></div>
+        </footer>
+        <!-- footer -->
+        <ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
+    </div>
+    <!-- content -->
+</body>
+</html>

@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
+    <title>Pasi</title>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+	<header class="header-style header-style2 header-style5">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <a class="logo" href="index.html">
+						<h1 class="pasi">PaSi</h1>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-10">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="hamburger-icon2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="normal-s">
+                        <ul>
+                            <li class="dropdown-plus active">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+                            <!--<li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+                            <li>
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </header>
+    <div class="header-style header-style2 header-style3 header-style4 active">
+        <div class="hamburger-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <div class="row">
+                <div class="category">
+                    <span class="small-1">技术指南</span>
+                    <ul>
+						<a href="#daohan"><li>导航栏</li></a>
+                        <a href="#dingwei"><li>定位栏</li></a>
+                        <a href="#tishi"><li>提示框</li></a>
+                        <a href="#zhiding"><li>回到顶部UI</li></a>
+						<a href="#wendang"><li>文档内容</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="mob-icon"></div> 
+        </div>                                                          
+    </div>
+    <!-- HEADER -->
+    
+    <!-- OVERLAY-MENU -->
+    <div class="overlay-wrapper height-min menu">
+        <div class="overlay-animation"></div>
+        <div class="flex">
+            <div class="flex-in">
+                <div class="overlay-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="btn-close"><span></span><span></span></div>
+                            <div class="col-lg-2 col-lg-offset-5">
+                                <ul>
+                                    <li class="dropdown-plus active">
+                                <a href="index.html">主页</a>
+                                <span></span>
+                                <ul>
+									<li><a href="index.html">个人简历</a></li>
+                                    <li><a href="guide.html">技术文档</a></li>
+                                    <li><a href="xiaojie.html">课程设计小结</a></li>
+									<li><a href="zuoye.html">JavaScript练习</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="detail.html">导航</a>
+                            </li>
+
+                            <!--<li class="dropdown-plus">
+                                <a href="blog.html">资源</a>
+                                <span></span>
+                                <ul>
+                                    <li><a href="blog.html">资源推荐</a></li>
+                                    <li><a href="blogdetail.html">资源详情</a></li>
+                                </ul>
+                            </li>-->
+							<li>
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end OVERLAY-MENU -->
+	
+    <!-- OVERLAY-VIDEO -->
+     <div class="overlay-wrapper height-min video">
+        <div class="overlay-animation"></div>
+        <div class="iframe-wrapper">
+            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
+        </div>
+        <div class="btn-close"><span></span><span></span></div>
+    </div>
+    <!-- end OVERLAY-VIDEO -->
+
+
+    <!-- content -->
+    <div id="content-wrapper">
+        
+        <div class="empty-space h45-xs h65-sm"></div>
+        <div class="container-fluid-style3">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <article>
+                        <h1 class="h1">技术指南</h1>
+                        <div class="empty-space h15-xs"></div>
+                        <p class="normal-l dark-grey">后面的内容将对您浏览此网站有很大的帮助，欢迎浏览</p>
+                    </article>
+                </div>
+            </div>
+            <div class="empty-space h15-xs h45-sm"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content-menu">
+                        <div class="button-drop">
+                           <a>
+                            <span>ALL</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                        </a> 
+                        </div>
+                        <ul>
+							<li><a class="active" href="#"><span>ALL</span></a></li>
+                            <li><a data-name="DESIGN" href="#daohan"><span>导航栏</span></a></li>
+                            <li><a data-name="BRANDING" href="#dingwei"><span>定位栏</span></a></li>
+                            <li><a data-name="ADVERTISING" href="#tishi"><span>提示框</span></a></li>
+                            <li><a data-name="LOGO" href="#zhiding"><span>回到顶部UI</span></a></li>
+                            <li><a data-name="DEVELOPMENT" href="#wendang"><span>文档内容</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empty-space h40-xs h60-md"></div>
+
+            <!--left-right -->
+            <div class="left-right">
+                <div id="daohan" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/daolan.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">导航栏</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>3日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>提供本站的所有项目进入点</a>
+                                        </span>
+                                    </div>
+									<p>导航栏在您下拉时将被隐藏，此可扩大您对页面的浏览空间，在您需要它时，将鼠标移动至顶部方会显示</p>
+									<div class="empty-space h20-md fl"></div>
+                                    <p>本次均属于主页页面的Javascript课程部分，自选部分（Pasi导航）所有页面都可从此进入</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="dingwei" class="row">
+                    <div class="col-md-6 pull-right"></div>
+                    <div class="col-md-6">
+                        <div class="clip right-side">
+                            <a class="bg" style="background-image:url(img/dingweilan.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">定位栏</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>4日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>为当前页面内容进行快速定位</a>
+                                        </span>
+                                    </div>
+                                    <p>善于运用它，您可以大大提高效率</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+							<div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="tishi" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/tishi.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">提示框</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>5日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>通知您也许需要知道的消息</a>
+                                        </span>
+                                    </div>
+                                    <p>本站虽然已经满足课程设计相关要求，但由于开发时间急促，技术有所限制，为此许多扩展功能未来得及实现</p><div class="empty-space h20-md fl"></div>
+                                    <p>使用帮助，或未实现或完善的功能将会以通知栏的形式告知您</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="zhiding" class="row">
+                    <div class="col-md-6 pull-right"></div>
+                    <div class="col-md-6">
+                        <div class="clip right-side">
+                            <a class="bg" style="background-image:url(img/zhiding.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">回到顶部UI</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>6日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>点击可快速直接回到顶部</a>
+                                        </span>
+                                    </div>
+                                    <p>您一定会经常用到它的对吧</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h60-xs fl"></div>
+							<div class="empty-space h60-xs fl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs fl"></div>
+				<div class="empty-space h60-xs fl"></div>
+                <div id="wendang" class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="clip left-side">
+                            <a class="bg" style="background-image:url(img/work.gif);"></a>
+                        </div>
+                        <div class="row">
+                            <div class="empty-space h30-xs h30-sm h60-md fl"></div>
+                            <div class="col-md-12 text-center">
+                                <a class="btn-style3">文档部署</a>
+                            </div>
+                            <div class="empty-space h15-xs fl"></div>
+                            <div class="col-md-12 text-center">
+                                <div class="autor small-1">
+                                    <span>开发时间</span>
+                                    <span>8日 01/2019</span>
+                                    <span>祝您健康</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-space h15-xs"></div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <div class="section">
+                                    <div class="h5">
+                                        <span class="mouseover-2">
+                                            <a>文档内容</a>
+                                        </span>
+                                    </div>
+                                    <p>work目录含有本学期的所有练习</p>
+                                </div>
+                            </div>
+                            <div class="empty-space h30-xs h60-sm fl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end left-right -->
+            <div class="empty-space h15-xs h15-sm h90-md"></div>
+            <!--<div class="page-pagination">
+                <ul>
+                    <li><a>PREVIOUS</a></li>
+                    <li><a>2</a></li>
+                    <li><a>3</a></li>
+                    <li><a>4</a></li>
+                    <li><a>5</a></li>
+                    <li><a>...</a></li>
+                    <li><a>NEXT</a></li>
+                </ul>
+            </div>-->
+        </div>
+        <!-- end container-fluid-style2 -->
+        <div class="empty-space h0-xs h30-sm fl"></div>
+        <!-- footer -->
+		<footer class="footer-style footer-style2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12 text-left">
+                        <a class="logo">
+                            <!--<img src="img/logo.png" alt="#" />-->
+							<h1 class="pasi">PaSi</h1>
+                        </a>
+                        <div class="empty-space h15-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-5 col-sm-8 col-xs-12">
+                        <nav class="small-2">
+                            <ul>
+                                <li class="footer-nav active">
+                                    <a href="index.html">主页</a>
+                                </li>
+                                <li class="footer-nav">
+                                    <a href="detail.html">导航</a>
+                                </li>
+                                <!--<li class="footer-nav">
+                                    <a href="detail.html">PORTFOLIO</a>
+                                </li>-->
+                                <!--<li class="footer-nav">
+                                    <a href="blog.html">资源</a>
+                                </li>-->
+                                <li class="footer-nav">
+                                <a href="liuyan.html">留言</a>
+                            	</li>
+                            </ul>
+                        </nav>
+                        <div class="empty-space h20-xs h0-md"></div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <form class="subscribe-form">
+                            <div class="input-wrapper">
+                                <div class="input-style">
+                                    <input id="input" name="value" type="text">
+                                    <label for="input">百度...</label>
+                                </div>
+                                <button class="btn-style1" type="button"><span>搜索</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="empty-space h20-md fl"></div>
+						<div class="col-md-9">
+                        <div class="copyright normal-s">
+							<div class="col-md-2"><p class="hei">班别</p><p>2017级软件C班</p></div><div class="col-md-2"><p class="hei">学号</p><p>1706200336</p></div><div class="col-md-2"><p class="hei">制作人</p><p>林满鑫</p></div>
+							<div class="col-md-3"><p class="hei">邮箱</p><p>1361571410@qq.com</p></div><div class="col-md-2"><p class="hei">制作时间</p><p>2019年1月7日</p></div>
+                        </div>
+                    </div>
+				<div class="col-md-3">
+					<div class="wo">
+					  <a class="button" href="#popup">Business Card</a>
+					  <div class="popup" id="popup">
+						<div class="popup-inner">
+						  <div class="popup__photo">
+							<img src="img/wo.jpg" alt="">
+						  </div>
+						  <div class="popup__text">
+							<h1> Man Xin Lin </h1>
+							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
+							  </div>
+							  <a class="popup__close" href="#footer">X</a>
+							</div>
+						  </div>
+						</div>
+                    </div>
+            </div>
+			<div class="bottom"><p>Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</p></div>
+        </footer>
+        <!-- footer -->
+        <ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
+    </div>
+    <!-- content -->
+</body>
+</html>
