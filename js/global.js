@@ -1,6 +1,6 @@
 $(function() {
 	//$('.header-style2').removeClass('active');
-	$('.header-style5').addClass('active');
+	//$('.header-style5').addClass('active');
 	//"use strict";
 	/* 01 - VARIABLES */
     /*var swipers = [], winW, winH, winScr, footerTop, _isresponsive, _ismobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i);*/
