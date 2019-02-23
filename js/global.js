@@ -1,5 +1,5 @@
 $(function() {
-	$('.header-style2').removeClass('active');
+	//$('.header-style2').removeClass('active');
 	$('.header-style5').addClass('active');
 	//"use strict";
 	/* 01 - VARIABLES */
