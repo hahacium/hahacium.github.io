@@ -1,14 +1,16 @@
 $(function() {
+	$('.header-style2').removeClass('active');
+	$('.header-style5').addClass('active');
 	//"use strict";
 	/* 01 - VARIABLES */
     /*var swipers = [], winW, winH, winScr, footerTop, _isresponsive, _ismobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i);*/
 
 	/* 04 - function on page load */
-	$(window).load(function(){
+	/*$(window).load(function(){
 		//$('#loader-wrapper').fadeOut(300);
         $('.header-style2').removeClass('active');
 		$('.header-style5').addClass('active');
-	});
+	});*/
 	/* 01 - toast 通知插件 */
 	//http://www.jq22.com/yanshi10876
 	/*=====================*/
