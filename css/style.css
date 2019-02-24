@@ -57,7 +57,7 @@ a.disabled {cursor: default!important; pointer-events: none;}
 	border-radius:3px;
 }
 .wrap .card {
-    //background: hsla(0,0%,93%,0.35);
+    /*background: hsla(0,0%,93%,0.35);*/
     padding: 5px;
     border-radius: 2px;
     margin-bottom: 20px;
