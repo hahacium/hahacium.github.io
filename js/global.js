@@ -174,4 +174,8 @@ $('.button-play').on('click', function(){
 	/*$('.footer-style .btn-style1').on('click',function(){
 		window.open("http://www.baidu.com");
 	});*/
+	/*名片关闭*/
+	$('#popup').click(function(){
+		document.querySelector('.popup__close').click();
+	});
 });
