@@ -2,13 +2,18 @@
 <html lang="zh-cn">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
    	<!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
     <title>Pasi</title>
-	<script src="js/jquery-2.2.4.min.js"></script>
+	
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script src="js/global.js"></script>
+
 </head>
 <body>
     <div class="is-mobile"></div>
@@ -53,9 +58,7 @@
                                 <ul>
 									<li><a href="index.html">个人简历</a></li>
                                     <li><a href="guide.html">技术文档</a></li>
-                                    <li><a href="xiaojie.html">课程设计小结</a></li>
-									<li><a href="zuoye.html">JavaScript练习</a></li>
-
+                                    <li><a href="xiaojie.html">设计小结</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -127,11 +130,9 @@
         </div>
     </div>
     <!-- end OVERLAY-MENU -->
-	<script>
-		$('.header-style2').removeClass('active');
-		$('.header-style5').addClass('active');
-	</script>
+
     <!-- content -->
+    <div id="content-wrapper">
         <div class="empty-space h150-sm h75-xs"></div>
         <div class="container-fluid-style1">
             <div class="align-wrapper">
@@ -141,9 +142,12 @@
                         <a><img src="img/img-2.jpg" alt=""></a>
                         <div class="description-wrapper">
                             <div class="description">
-                               <a class="biggest-1 mouseover-1">另人照片</a>
+                               <a class="biggest-1 mouseover-1">我的照片</a>
                                <div class="empty-space h5-xs"></div>
-                               <p class="small-s">林满鑫</p>
+                                <p class="small-s">林满鑫</p>
+                                <p class="small-2">兴趣爱好： </p>
+                                <p class="small-2">web、声乐、羽毛球</p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -158,7 +162,7 @@
                                <div class="empty-space h5-xs"></div>
                                <p class="small-2">读于广东工程职业技术学院</p>
 								<p class="small-2">大专学历</p>
-								<p class="small-2">软件技术专业</p>
+                                <p class="small-2">软件技术专业</p>
                             </div>
                         </div>
                     </div>
@@ -169,10 +173,9 @@
                         <a><img src="img/img-3.jpg" alt=""></a>
                         <div class="description-wrapper">
                             <div class="description">
-                               <a class="biggest-1 mouseover-1">熟悉掌握</a>
+                               <a class="biggest-1 mouseover-1">专业方向</a>
                                <div class="empty-space h5-xs"></div>
-                               <p class="small-2">Html5+Css,Javascript+jQuery，ASP.NET,ASP.NET MVC，C语言，C#，SQL Server，数据结构</p>
-								<p class="small-2"></p>
+                               <p class="small-2">Web</p>
                             </div>
                         </div>
                     </div>
@@ -183,9 +186,9 @@
                         <a><img src="img/img-4.jpg" alt=""></a>
                         <div class="description-wrapper">
                             <div class="description">
-                               <a class="biggest-1 mouseover-1">专业方向</a>
+                               <a class="biggest-1 mouseover-1">熟练掌握</a>
                                <div class="empty-space h5-xs"></div>
-                               <p class="small-2">Web前端</p>
+                               <p class="small-2">Html5+Css,Javascript+jQuery，ASP.NET、Bootstrap，HTTP协议、TCP/IP协议，SqlServer、MySQL，PHP、ASP.NET MVC、C#、 C</p>
                             </div>
                         </div>
                     </div>
@@ -193,7 +196,7 @@
                 <div class="img-block-wrapper">
                     <div class="empty-space h55-xs h110-lg"></div>
                     <div class="img-block">
-                        <a href="https://hahacium.github.io/pasiyuan/"><img src="img/img-5.PNG" alt="" style="width: 80%"></a>
+                        <a><img src="img/img-5.jpg" alt="" style="width: 80%"></a>
                         <div class="description-wrapper">
                             <div class="description">
                                <a class="biggest-1 mouseover-1">我的项目一</a>
@@ -307,25 +310,29 @@
 						  <div class="popup__photo">
 							<img src="img/wo.jpg" alt="">
 						  </div>
-						  <div class="popup__text">
-							<h1> Man Xin Lin </h1>
-							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
-							  </div>
-							  <a class="popup__close" href="#footer">X</a>
+							<div class="popup__text">
+								<h1>林满鑫</h1>
+								<p>大二在读，曾管理校级机构官方公众号，多次组织策划机构活动，上台表演，全国职业技能大赛HTML5竞赛班生</p>
+								<p>熟悉HTML5、CSS3、Javascript(Ajax) 、JQuery、ASP.NET、Bootstrap框架，了解HTTP协议、TCP/IP协议，了解SqlServer、MySQL，了解PHP、ASP.NET MVC、C#、 C语言</p>
+								<p>熟练使用Dreamweaver、Sublime Text 3、Visual Studio、chrome开发者工具等编程软件、工具，了解Fiddler抓包工具，	
+								入门Photoshop
+								</p>
 							</div>
-						  </div>
+							<a class="popup__close" href="#footer">X</a>
 						</div>
+					  </div>
+					</div>
 				<!--<div class="follow">
-					<a class="social" target="_blank">
+					<a class="social" href="#" target="_blank">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
-                            <a class="social" target="_blank">
+                            <a class="social" href="#" target="_blank">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a>
-                            <a class="social" target="_blank">
+                            <a class="social" href="#" target="_blank">
                                 <i class="fa fa-pinterest" aria-hidden="true"></i>
                             </a>
-                            <a class="social" target="_blank">
+                            <a class="social" href="#" target="_blank">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
                         </div>-->
@@ -336,7 +343,5 @@
 		<ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
     </div>
     <!-- content -->
-	<script src="js/jquery.toast.js"></script>
-    <script src="js/global.js"></script>
 </body>
 </html>

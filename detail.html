@@ -8,8 +8,10 @@
 	<link href="css/jquery.toast.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 <!--<link href="https://fonts.googleapis.com/css?family=Lato:700,900%7CDidact+Gothic" rel="stylesheet">-->
-	<title>Pasi</title>
-	<script src="js/jquery-2.2.4.min.js"></script>
+    <title>Pasi</title>
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.toast.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -45,9 +47,7 @@
                                 <ul>
 									<li><a href="index.html">个人简历</a></li>
                                     <li><a href="guide.html">技术文档</a></li>
-                                    <li><a href="xiaojie.html">课程设计小结</a></li>
-									<li><a href="zuoye.html">JavaScript练习</a></li>
-
+                                    <li><a href="xiaojie.html">设计小结</a></li>
                                 </ul>
                             </li>
                             <li class="active">
@@ -142,10 +142,18 @@
         </div>
     </div>
     <!-- end OVERLAY-MENU -->
-	<script>
-		$('.header-style2').removeClass('active');
-		$('.header-style5').addClass('active');
-	</script>
+	
+    <!-- OVERLAY-VIDEO -->
+     <div class="overlay-wrapper height-min video">
+        <div class="overlay-animation"></div>
+        <div class="iframe-wrapper">
+            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
+        </div>
+        <div class="btn-close"><span></span><span></span></div>
+    </div>
+    <!-- end OVERLAY-VIDEO -->
+
+
     <!-- content -->
     <div id="content-wrapper">
         
@@ -1206,15 +1214,19 @@
 						  <div class="popup__photo">
 							<img src="img/wo.jpg" alt="">
 						  </div>
-						  <div class="popup__text">
-							<h1> Man Xin Lin </h1>
-							<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
-							  </div>
-							  <a class="popup__close" href="#footer">X</a>
+							<div class="popup__text">
+								<h1>林满鑫</h1>
+								<p>大二在读，曾管理校级机构官方公众号，多次组织策划机构活动，上台表演，全国职业技能大赛HTML5竞赛班生</p>
+								<p>熟悉HTML5、CSS3、Javascript(Ajax) 、JQuery、ASP.NET、Bootstrap框架，了解HTTP协议、TCP/IP协议，了解SqlServer、MySQL，了解PHP、ASP.NET MVC、C#、 C语言</p>
+								<p>熟练使用Dreamweaver、Sublime Text 3、Visual Studio、chrome开发者工具等编程软件、工具，了解Fiddler抓包工具，	
+								入门Photoshop
+								</p>
 							</div>
-						  </div>
+							<a class="popup__close" href="#footer">X</a>
 						</div>
-                    </div>
+					  </div>
+					</div>
+                </div>
             </div>
 			<div class="bottom"><p>Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</p></div>
         </footer>
@@ -1222,7 +1234,5 @@
         <ul class="summit-fixbar"><li class="summit-fixbar-top">^</li></ul>
     </div>
     <!-- content -->
-	<script type="text/javascript" src="js/jquery.toast.js"></script>
-    <script type="text/javascript" src="js/global.js"></script>
 </body>
 </html>
