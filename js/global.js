@@ -178,4 +178,21 @@ $('.button-play').on('click', function(){
 	$('#popup').click(function(){
 		document.querySelector('.popup__close').click();
 	});
+	function car(){
+		$first=$('.car').first();
+		$last=$('.car').last();
+		if($first.hasClass('active')){
+			$('.cuttok').remove();
+			$first.removeClass('active');
+			$last.addClass('active');
+			$last.prepend('<div class="cutto"></div>');
+		}else{
+			$('.cuttok').remove();
+			$last.removeClass('active');
+			$first.addClass('active');
+			$first.prepend('<div class="cutto"></div>');
+		}
+		$('.car .description-wrapper').addClass('movein');
+	}
+	 setInterval(car,6000);
 });
