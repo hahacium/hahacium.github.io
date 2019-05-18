@@ -1,10 +1,10 @@
 $(function() {
 	/* 04 - function on page load */
-	$(window).load(function(){
-		//$('#loader-wrapper').fadeOut(300);
+	// $(window).load(function(){
+	// 	//$('#loader-wrapper').fadeOut(300);
         $('.header-style2').removeClass('active');
 		$('.header-style5').addClass('active');
-	});
+	// });
 	/* 01 - toast 通知插件 */
 	//http://www.jq22.com/yanshi10876
 	/*=====================*/
