@@ -810,7 +810,7 @@ article{position: relative; float: left; width: 100%;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 .v-align-middle{vertical-align: middle;}
-.mouseover-1{background: url(../img/pixel-1.png) repeat-y; background-size: 0 32px; background-position: center 28px; -webkit-transition: all 60s ease-out; transition: all 60s ease-out;}
+.mouseover-1{/*background: url(../img/pixel-1.png) repeat-y; background-size: 0 32px; background-position: center 28px;*/ -webkit-transition: all 60s ease-out; transition: all 60s ease-out;}
 .mouseover-1:hover{background-position: center 28px; -webkit-transition: all 240s ease-out; transition: all 240s ease-out; background-size: 100000px 32px;}
 .mouseover-2{background: -moz-linear-gradient(left, currentColor 0%, currentColor 100%);
     background: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
@@ -825,7 +825,7 @@ article{position: relative; float: left; width: 100%;}
     transition: all 180s ease-out;
     background-size: 100000px 2px;
 }
-.mouseover-3{background: url(../img/pixel-1-2.png) repeat-y; background-size: 0 32px; background-position: center 1px; -webkit-transition: all 60s ease-out; transition: all 60s ease-out;}
+.mouseover-3{/*background: url(../img/pixel-1-2.png) repeat-y; background-size: 0 32px; background-position: center 1px;*/ -webkit-transition: all 60s ease-out; transition: all 60s ease-out;}
 .mouseover-3:hover{background-position: center 28px; -webkit-transition: all 240s ease-out; transition: all 240s ease-out; background-size: 100000px 32px;}
 /*IMG-BLOCKS*/
 .container-fluid-style1{position: relative; width: 100%; padding: 0 50px;}
