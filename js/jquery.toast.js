@@ -1,5 +1,5 @@
 ;
-// jQuery toast plugin created by Kamran Ahmed copyright MIT license 2015
+// jQuery toast插件开发者https://github.com/hahacium
 if ( typeof Object.create !== 'function' ) {
     Object.create = function( obj ) {
         function F() {}
@@ -232,8 +232,8 @@ if ( typeof Object.create !== 'function' ) {
 
             var loader = this._toastEl.find('.jq-toast-loader');
 
-            // 400 is the default time that jquery uses for fade/slide
-            // Divide by 1000 for milliseconds to seconds conversion
+            // 400 is the default time that jquery uses for fade/slide(400:淡入淡出/滑动的默认时间)
+            // Divide by 1000 for milliseconds to seconds conversion(除以1000进行毫秒到秒的转换)
             var transitionTime = (this.options.hideAfter - 400) / 1000 + 's';
             var loaderBg = this.options.loaderBg;
 

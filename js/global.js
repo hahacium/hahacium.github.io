@@ -6,12 +6,11 @@ $(function() {
 		$('.header-style5').addClass('active');
 	// });
 	/* 01 - toast 通知插件 */
-	//http://www.jq22.com/yanshi10876
 	/*=====================*/
 	function dan(){
 		var $dang=$.toast({
 		text: "此项正在开发中，敬请期待",
-		heading: '提示', 
+		heading: '提示',
 		/*icon: 'warning',*/
 		showHideTransition: 'fade', // fade, slide or plain
 		allowToastClose: true, // Boolean value true or false
@@ -196,3 +195,8 @@ $('.button-play').on('click', function(){
 	}
 	 setInterval(car,6000);
 });
+window.onload=function() {
+	$('img[data-src]').attr('src', function() {
+		return $(this).attr('data-src')
+	});
+}
